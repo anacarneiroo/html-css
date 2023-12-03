@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abrir esse site em vários dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="small.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="média.png" type="image/png">
+        <img src="grande.png" alt="Imagem grande">
+    <h1>Áudios</h1>
+    <audio src="midia/Glimpsing Infinity - Asher Fulero.mp3" controls autoplay preload="metadata" loop></audio>
+    <audio controls preloud="metadata" autoplay loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Não está sendo possível carregar o áudio,faça o download <a href="midia/guanacast-33.mp3">aqui</a> </p>
+    </audio>
+    </picture>
+</body>
+</html>
