@@ -12,11 +12,8 @@
     margin: 0px;
 }
 
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 25px;
     background-color: black;
     color: white;
@@ -33,7 +30,7 @@ header h1{
 
 section p{
     margin: 50px;
-    font-family: var(--poema);
+    font-family: var(--poema),Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3vw;
 }
 
@@ -72,7 +69,9 @@ a:hover{
 
 footer{
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
     padding: 8px;
 }
+
