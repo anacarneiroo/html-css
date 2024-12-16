@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+iframe#conteudo::-webkit-scrollbar{
+    color: red;
+}
+
+div{
+    text-align: center;
+    position: relative;
+    
+}
+
+img{
+    position: relative;
+    width: 300px;
+}
+
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 460px;
+}
+
+
