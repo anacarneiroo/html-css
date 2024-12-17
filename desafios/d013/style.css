@@ -7,13 +7,13 @@ body{
 a{  
     position: fixed;
     right: 0;
-    padding: 20px;
+    margin: 20px;
     border-radius: 50%;
 }
 
 a:hover{
-    padding-top: 10px;
-    padding-right: 28px;
+    margin-top: 10px;
+    margin-right: 28px;
 }
 
 a#home{
