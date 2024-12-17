@@ -1,22 +1,16 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(19, 19, 19);
-}
-
-
-nav{
-    position: fixed; 
-    right: 0;
+    background-color: rgb(197, 221, 240);
 }
 
 a{
-    display: block;
     border-radius: 50%;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin: 20px;
+    text-align: right;
+    position: fixed;
+    right: 0;
 }
-
 
 .opcao{
     width: 50px;
@@ -25,10 +19,10 @@ a{
 }
 
 section{
-    position: relative;
-    margin: auto;
-    text-align: center;
-    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 iframe{
@@ -37,8 +31,27 @@ iframe{
     top: 50%;
     transform: translate(-50%, -50%);
     width: 270px;
-    height: 490px;
+    height: 473px;
 }
 
+a:hover{
+    margin-right: 28px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px rgb(105, 105, 105);
+}
 
+a#home{
+    top: 10px;
+}
 
+a#insta{
+    top: 90px;
+}
+
+a#github{
+    top: 170px;
+}
+
+a#twitter{
+    top: 250px;
+}
