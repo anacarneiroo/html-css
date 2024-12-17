@@ -1,20 +1,46 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(197, 221, 240);
+    background-color:rgb(197, 221, 240);
 }
 
-a{
-    border-radius: 50%;
-    margin: 20px;
+a{  
     position: fixed;
     right: 0;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+a:hover{
+    padding-top: 10px;
+    padding-right: 28px;
+}
+
+a#home{
+    top: 10px;
+}
+
+a#insta{
+    top: 90px;
+}
+
+a#github{
+    top: 170px;
+}
+
+a#twitter{
+    top: 250px;
 }
 
 .opcao{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.opcao:hover{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.573);
+    border: 1px solid rgb(134, 134, 247)
 }
 
 section{
@@ -33,27 +59,4 @@ iframe{
     height: 473px;
 }
 
-a:hover{
-    margin-right: 28px;
-    margin-top: 10px;
-}
 
-a img:hover{
-    box-shadow: 1px 1px 4px rgb(0, 0, 124);
-}
-
-a#home{
-    top: 10px;
-}
-
-a#insta{
-    top: 90px;
-}
-
-a#github{
-    top: 170px;
-}
-
-a#twitter{
-    top: 250px;
-}
