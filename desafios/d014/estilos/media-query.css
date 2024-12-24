@@ -8,4 +8,23 @@
         margin-top: 20px;
     }
 
+    input,label{
+        display: none;
+    }
+
+    nav ul{
+        display: inline-block;
+        text-align: justify;
+    }
+
+    li{
+        display: inline-block;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    li:hover{
+        background-color: rgb(85, 85, 85);
+    }
+
 }
