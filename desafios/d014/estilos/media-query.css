@@ -12,7 +12,7 @@
         display: none;
     }
 
-    nav > ul{
+    nav ul{
         display: inline-block;
         text-align: justify;
     }
