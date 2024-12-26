@@ -63,7 +63,7 @@ input[type=checkbox]{
 }
 
 #toggle-menu:checked + label + ul{
-    display: inline;
+    display: block;
 }
 
 main{
