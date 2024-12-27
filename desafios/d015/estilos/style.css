@@ -29,73 +29,70 @@ section#img{
 }
 
 section#formulario {
-    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 #formulario > h1{
     text-align: center; 
-    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 p#principal{
     font-size: 0.8em;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.p-info,.i-enviar{
+.p-info,#i-enviar{
+    margin: 10px 0px 10px 0px;
+    border-radius:8px;
     display: flex;
     align-items: center;
     justify-items: center;
-    height: 45px;
-    margin: 10px 0px 10px 0px;
-    border-radius:8px;
 }
 
 .p-info{
     background-color:#06305D;
-}
-
-.i-dados{
-    width: 165px;
-}
-
-.i-enviar{
-    width: 229px;
-}
-
-.i-dados{
-    background-color: #C8DFF0;
-    padding: 8px;
-    border-style: none;
-    border-radius: 8px;
-}
+} 
 
 span{
     color: #A7D2F5;
     margin: 10px;
 }
 
-input.i-enviar{
+.i-dados{
+    background-color: #C8DFF0;
+    width: 165px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+#i-enviar{
     background-color:#C8DFF0;
+    width: 230px;
+    height: 44px;
     border-style: none;
 }
 
-a.i-enviar{
-    color: black;
-    font-size: 0.9em;
-    text-decoration: none;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-}
-
-input.i-enviar:hover{
-    color: white;
+#i-enviar:hover{
     background-color: #06305D;
+    color: white;
     cursor: pointer;
 }
 
-a.i-enviar:hover{
+#p-submit{
+    display:block;
+    text-align:center;
+    margin: 10px 0px 10px 0px;
+}
+
+a{
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+a:hover{
     text-decoration: underline;
 }
 
