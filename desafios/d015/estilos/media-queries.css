@@ -1,5 +1,77 @@
 @charset "UTF-8";
 
-@media screen {
+/* Typical Device Breakpoints 
+
+Extra small devices (phones, 600px and down)
+Small devices (portrait tablets and large phones, 600px and up)
+Medium devices (landscape tablets, 768px and up)
+Large devices (laptops/desktops, 992px and up) 
+Extra large devices (large laptops and desktops, 1200px and up)
+
+*/
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(#06305D,#003DAA);
+    }
+
+    main{
+        display: flex; 
+        width: 75vw;
+    }
+
+    section#img{
+        background-position: left center;
+        flex: 1; 
+        height: auto;
+        border-radius: 20px 0px 0px 20px;
+    }
     
+    section#formulario{
+        width: 45vw;
+    }
+
+    #i-enviar{
+        width: 45vw;
+    }
+
+    .i-dados{
+        min-width: 37vw;
+    }
+ 
+}
+
+@media only screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(#06305D,#003DAA);
+        background-position: right center;
+    }
+
+    main{
+        width: 75vw;
+        height: 48vh;
+        font-size: 1.2em;
+        display: flex; 
+        flex-direction: row-reverse;
+    }
+
+    section#img{
+        background-position: left center;
+        flex: 1; 
+        height: auto;
+        border-radius: 0px 20px 20px 0px;
+    }
+    
+    section#formulario{
+        width: 45vw;
+    }
+
+    #i-enviar{
+        min-width: 45vw;
+    }
+
+    .i-dados{
+        min-width:39vw;
+    }
+
 }
