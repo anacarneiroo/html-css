@@ -46,7 +46,6 @@ p#principal{
     display: flex;
     align-items: center;
     justify-items: center;
-    width: 229px;
     height: 45px;
     margin: 10px 0px 10px 0px;
     border-radius:8px;
@@ -54,6 +53,10 @@ p#principal{
 
 .p-info{
     background-color:#06305D;
+}
+
+.i-enviar{
+    width: 229px;
 }
 
 .i-dados{
