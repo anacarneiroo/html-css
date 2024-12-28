@@ -43,6 +43,7 @@ p#principal{
 }
 
 .p-info,#i-enviar{
+    width: 230px;
     margin: 10px 0px 10px 0px;
     border-radius:8px;
     display: flex;
@@ -61,6 +62,7 @@ span{
 
 .i-dados{
     background-color: #A7D2F5;
+    width: 170px;
     padding: 8px;
     border-style: none;
     border-radius: 8px;
@@ -68,7 +70,6 @@ span{
 
 #i-enviar{
     background-color:#A7D2F5;
-    width: 230px;
     height: 44px;
     border-style: none;
 }
@@ -86,7 +87,6 @@ span{
 
 a{
     color: black;
-    font-size: 0.9em;
     text-decoration: none;
 }
 
