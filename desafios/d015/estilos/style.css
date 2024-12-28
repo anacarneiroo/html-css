@@ -56,12 +56,11 @@ p#principal{
 
 span{
     color: #A7D2F5;
-    margin: 10px;
+    margin: 8px;
 }
 
 .i-dados{
     background-color: #A7D2F5;
-    min-width: 18vw;
     padding: 8px;
     border-style: none;
     border-radius: 8px;
@@ -81,7 +80,6 @@ span{
 }
 
 #p-submit{
-    display:block;
     text-align:center;
     margin: 10px 0px 10px 0px;
 }

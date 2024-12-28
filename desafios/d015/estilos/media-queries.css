@@ -31,14 +31,14 @@ Extra large devices (large laptops and desktops, 1200px and up)
         width: 45vw;
     }
 
+    .i-dados{
+        min-width:37vw;
+    }
+ 
     #i-enviar{
         width: 45vw;
     }
 
-    .i-dados{
-        width: 37vw;
-    }
- 
 }
 
 @media only screen and (min-width:992px){
@@ -66,12 +66,12 @@ Extra large devices (large laptops and desktops, 1200px and up)
         width: 45vw;
     }
 
-    #i-enviar{
-        min-width: 45vw;
+    .i-dados{
+        min-width:40vw;
     }
 
-    .i-dados{
-        min-width:39vw;
+    #i-enviar{
+        min-width: 45vw;
     }
 
 }
