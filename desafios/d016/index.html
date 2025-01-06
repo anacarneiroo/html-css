@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Flexbox</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="botão" class="material-symbols-outlined">
+            menu
+        </span>
+        <nav id="nav">
+            <ul>
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+                <li>Opção 4</li>
+                <li>Opção 5</li>
+                <li>Opção 6</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Teste de Flexbox</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum tempore ratione iure consectetur nobis repellendus cupiditate architecto, nulla expedita, et iusto illo voluptate nostrum cum earum quas, beatae corrupti quos.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odio quaerat iste magnam voluptatibus nemo eaque repudiandae dolorum laborum eius repellendus libero, at commodi molestiae animi, tempore ipsum, eveniet accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas corporis ex doloribus maxime molestias iure officiis! Exercitationem dicta possimus error quo, labore qui voluptatibus corrupti iure et pariatur eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis neque deserunt enim iusto harum labore ad asperiores mollitia magnam, non reiciendis commodi suscipit est hic voluptates vero. Similique, soluta repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi officiis ad, quas enim totam officia ut autem, harum esse expedita, odit voluptas quasi error veniam alias sapiente veritatis dolorem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque at natus maxime veritatis esse corrupti sequi perspiciatis! Perspiciatis soluta repellendus dolorum autem iusto sapiente odio asperiores praesentium, facere qui sed.
+            Quod neque fuga fugiat mollitia in excepturi unde vero magnam repellat debitis distinctio pariatur quidem perspiciatis eaque reiciendis a, nemo nulla possimus laborum veritatis accusantium dicta voluptates fugit qui. Rem.
+            Maxime officiis tenetur odio! Recusandae enim odit laudantium repudiandae vel eaque fugit sequi impedit! Doloribus quisquam repellat facilis perspiciatis totam et voluptatum iusto, magnam sapiente! Fugiat, ad architecto. Fugiat, at!
+            Similique officiis nam dicta id explicabo quos eius magni ipsam architecto maiores animi aliquid consectetur, hic ducimus illum quisquam iure sapiente tempore inventore aliquam quaerat qui temporibus, perferendis eligendi. Reiciendis.
+            Repudiandae fugit, dignissimos laboriosam, commodi magni laudantium voluptas ratione hic inventore impedit harum ipsam sint aliquid a, tenetur minus voluptatem fugiat ipsum quidem dolores quos assumenda eius? Aut, fuga quis.</p>
+        </article>
+    </main>
+
+    <script>
+        var b = document.getElementById('botão')
+        b.addEventListener('click',clicar)
+
+        function clicar(){
+            var nav = document.getElementById('nav')
+            
+            if(nav.style.display == 'none' ){ 
+                nav.style.display ='block' 
+            }
+
+            else{
+                nav.style.display ='none'
+            }
+        }
+
+    </script>
+</body>
+</html>
